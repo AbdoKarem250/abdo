@@ -273,24 +273,25 @@ footer img{
 @media(min-width:280px) and (max-width:575px){
 
      .text1 h1 {
-    font-size: 34px;
+    font-size: 29px;
     }
     .text1 p{
-        font-size: 21px;
-        line-height: 1rem;
+        font-size: 18px;
+        line-height: 3rem;
     }
      .navbar a{
       display: none;
   }
     .About p{
-        font-size: 20px;
-        line-height: 1rem;
+        font-size: 18px;
+        line-height: 3rem;
         display: flex;
-        gap:1rem;
+        gap:10px;
         text-align: center;
+        
     }
       footer{
-        margin-top: 400px;
+        margin-top: 300px;
     }
 }
 
