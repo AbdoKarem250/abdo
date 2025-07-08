@@ -288,6 +288,7 @@ footer img{
    .About p{
        font-size: 14px;
        display: flex;
+        padding: 10px;
        text-align: center;
        line-height: 1.5rem;
         margin-top: -11rem;
