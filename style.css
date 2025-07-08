@@ -269,8 +269,8 @@ footer img{
         background-color:aqua;
     }
 }
-@medi(min-width:280px) and (max-width:575px){
+@medi(min-width:360px) and (max-width:575px){
      body{
-        background-color:yellow;
+        background-color: red;
     }
 }
