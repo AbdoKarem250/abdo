@@ -271,10 +271,26 @@ footer img{
 }
 
 @media(min-width:280px) and (max-width:575px){
-    body{
-        
-        background-color:red;
+
+     .text1 h1 {
+    font-size: 34px;
     }
-    
+    .text1 p{
+        font-size: 21px;
+        line-height: 1rem;
+    }
+     .navbar a{
+      display: none;
+  }
+    .About p{
+        font-size: 20px;
+        line-height: 1rem;
+        display: flex;
+        gap:1rem;
+        text-align: center;
+    }
+      footer{
+        margin-top: 400px;
+    }
 }
 
