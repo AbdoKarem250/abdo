@@ -167,6 +167,10 @@ footer img{
   .navbar a{
       display: none;
   }
+    body{
+        background-color:red;
+    }
+        
     
 }
 @media(min-width:768px) and (max-width:991px){
@@ -177,6 +181,9 @@ footer img{
     }
     footer{
         margin-top: 350px;
+    }
+     body{
+        background-color:blue;
     }
 }
 @media(min-width:992px) and (max-width:1199px){
@@ -191,6 +198,9 @@ footer img{
         display: flex;
      margin-top: 25rem;  
      flex-wrap: wrap;
+    }
+     body{
+        background-color:green;
     }
 }
 @media(min-width:1200px) and (max-width:1399px){
@@ -255,4 +265,7 @@ footer img{
    .logo img{
        width: 15rem;
    }
+     body{
+        background-color:aqua;
+    }
 }
