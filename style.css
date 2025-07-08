@@ -149,6 +149,35 @@ footer img{
 /* Responsive */
 
 /* mobila */
+@media(min-width:280px) and (max-width:575px){
+
+    .text1 h1 {
+   font-size: 27px;
+        display: flex;
+        flex-wrap: wrap ;
+   }
+   .text1 p{
+       font-size: 15px;
+      
+       line-height: 1.2rem;
+   }
+    .navbar a{
+     display: none;
+ }
+   .About p{
+       font-size: 14px;
+       display: flex;
+        padding: 10px;
+       text-align: center;
+       line-height: 1.5rem;
+        margin-top: -11rem;
+     
+   }
+     footer{
+       margin-top: 250px;
+   }
+}
+/* mobila2 */
 @media(min-width:576px) and (max-width:767px){
     .icons{
         margin-bottom: 8rem;
@@ -247,7 +276,7 @@ footer img{
         width: 125px;
     }
    .navbar{
-       height: 90px;
+       height: 70px;
    }
    a{
        font-size: 20px;
@@ -257,32 +286,4 @@ footer img{
    }
 }
 
-@media(min-width:280px) and (max-width:575px){
-
-    .text1 h1 {
-   font-size: 27px;
-        display: flex;
-        flex-wrap: wrap ;
-   }
-   .text1 p{
-       font-size: 15px;
-      
-       line-height: 1.2rem;
-   }
-    .navbar a{
-     display: none;
- }
-   .About p{
-       font-size: 14px;
-       display: flex;
-        padding: 10px;
-       text-align: center;
-       line-height: 1.5rem;
-        margin-top: -11rem;
-     
-   }
-     footer{
-       margin-top: 250px;
-   }
-}
 
