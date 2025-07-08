@@ -270,7 +270,7 @@ footer img{
     }
 }
 @medi(min-width:280px) and (max-width:575px){
-    body{
-        backqround:blue;
+     body{
+        background-color:yello;
     }
 }
